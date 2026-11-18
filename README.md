@@ -132,7 +132,7 @@ Associate the domain with the Pages project before manually adding a CNAME. [Clo
 
 ## Contact behavior
 
-The address is **nikhilesh@compulight.co**, taken from the existing business card. **Contact us** and **Want to know more?** open the same contact dialog. Visitors can copy the email address or open their configured mail client with the recipient and the subject "Hello Compulight". Nothing is sent automatically.
+The address is **website@compulight.co**, selected for website enquiries. **Contact us** and **Want to know more?** open the same contact dialog. Visitors can copy the email address or open their configured mail client with the recipient and the subject "Hello Compulight". Nothing is sent automatically.
 
 The static HTML has no email address or `mailto:` URL. `contact.js` contains byte arrays encoded with a randomly generated mask. The address is decoded when the dialog opens and cleared from the page when it closes. This deters basic scrapers; bots that execute or analyze JavaScript can still recover it.
 
