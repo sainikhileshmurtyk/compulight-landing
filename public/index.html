@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#F7F8F6">
+  <meta name="description" content="Compulight is developing AI compute that combines 3D photonic interconnects with analog electronic processing for energy-efficient, real-time inference at high throughput.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Compulight | Computing, in a new light.">
+  <meta property="og:description" content="3D photonic interconnects and analog electronic processing. A new approach to faster, lower-cost AI inference.">
+  <title>Compulight | Computing, in a new light.</title>
+  <link rel="icon" href="assets/compulight-symbol.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/space-grotesk-500.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="contact.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="page">
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="Compulight home">
+        <img src="assets/compulight-symbol.svg" width="46" height="40" alt="">
+        <span>compulight</span>
+      </a>
+      <button class="contact-link" type="button" data-contact hidden>Contact us <span aria-hidden="true">↗</span></button>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="headline">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="light-dot" aria-hidden="true"></span> Photonic computing</p>
+          <h1 id="headline">Computing,<br>in a <span>new light.</span></h1>
+          <p class="intro">We’re developing a radically new approach to AI compute, combining 3D photonic interconnects with analog electronic processing for energy-efficient, real-time inference at high throughput.</p>
+          <button class="button button-primary" type="button" data-contact hidden>Want to know more? <span aria-hidden="true">↗</span></button>
+          <noscript><p class="no-script">Enable JavaScript to view our email contact options.</p></noscript>
+        </div>
+
+        <figure class="hero-art">
+          <svg class="light-architecture" viewBox="0 0 600 560" role="img" aria-labelledby="art-title art-description">
+            <title id="art-title">Light meets computation</title>
+            <desc id="art-description">An abstract stack of photonic planes. Amber signals enter from below, cross a teal network and emerge as light. A conceptual illustration, not a product diagram.</desc>
+            <defs>
+              <pattern id="background-grid" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#DFE7E7"/></pattern>
+              <pattern id="plane-grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#397D88" stroke-width=".7" opacity=".22"/></pattern>
+              <linearGradient id="plane-fill" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#EDF3F2"/><stop offset="1" stop-color="#B8D6D4"/></linearGradient>
+              <radialGradient id="soft-light"><stop stop-color="#B8D6D4" stop-opacity=".4"/><stop offset="1" stop-color="#F7F8F6" stop-opacity="0"/></radialGradient>
+              <g id="network" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M0 72H252M0 144H252M0 216H252M72 0V252M144 0V252M216 0V252" stroke="#397D88" stroke-width="1.6" opacity=".48"/>
+                <path d="M0 144H144V72H252M72 252V216H216V0" stroke="#2F6F79" stroke-width="3"/>
+                <g fill="#F7F8F6" stroke="#397D88" stroke-width="1.8"><circle cx="72" cy="72" r="4"/><circle cx="72" cy="144" r="4"/><circle cx="72" cy="216" r="4"/><circle cx="144" cy="72" r="4"/><circle cx="144" cy="144" r="4"/><circle cx="144" cy="216" r="4"/><circle cx="216" cy="72" r="4"/><circle cx="216" cy="144" r="4"/><circle cx="216" cy="216" r="4"/></g>
+              </g>
+            </defs>
+            <rect width="600" height="560" fill="url(#background-grid)"/>
+            <ellipse cx="310" cy="305" rx="285" ry="250" fill="url(#soft-light)"/>
+            <g fill="none" stroke="#DFE7E7" stroke-dasharray="3 7">
+              <path d="M82 206V368M300 80V242M518 206V368M300 332V494"/>
+            </g>
+            <g transform="matrix(.866 .5 -.866 .5 300 242)">
+              <rect width="252" height="252" rx="5" fill="#F2E0D0" stroke="#D58A48" stroke-width="1.2"/>
+              <g fill="none" stroke="#D58A48" stroke-width="2" opacity=".75"><path d="M0 72H72V0M0 144H144V0M0 216H216V0M72 252V216H252M144 252V144H252M216 252V72H252"/></g>
+              <rect x="90" y="90" width="72" height="72" rx="3" fill="#D58A48"/>
+              <rect x="102" y="102" width="48" height="48" rx="2" fill="#F2E0D0"/>
+              <g fill="#D58A48"><circle cx="72" cy="72" r="4"/><circle cx="144" cy="36" r="4"/><circle cx="216" cy="72" r="4"/><circle cx="72" cy="216" r="4"/><circle cx="216" cy="216" r="4"/></g>
+            </g>
+            <g fill="none" stroke="#D58A48" stroke-width="1.5" opacity=".55"><path d="M175 314V242M238 350V278M363 350V278M425 314V242"/></g>
+            <g transform="matrix(.866 .5 -.866 .5 300 170)">
+              <rect width="252" height="252" rx="5" fill="url(#plane-fill)" stroke="#397D88" stroke-width="1.2"/>
+              <rect width="252" height="252" fill="url(#plane-grid)"/><use href="#network"/>
+            </g>
+            <g fill="none" stroke="#397D88" stroke-width="1.1" opacity=".4"><path d="M175 242V152M238 278V188M363 278V188M425 242V152"/></g>
+            <g transform="matrix(.866 .5 -.866 .5 300 80)">
+              <rect width="252" height="252" rx="5" fill="url(#plane-fill)" stroke="#397D88" stroke-width="1.2"/>
+              <rect width="252" height="252" fill="url(#plane-grid)"/><use href="#network"/>
+              <g fill="#D58A48" stroke="#F7F8F6" stroke-width="2"><circle cx="144" cy="144" r="6"/><circle cx="216" cy="72" r="6"/></g>
+              <path class="light-trace trace-one" d="M0 144H144V72H252" fill="none" stroke="#D58A48" stroke-width="3.5" stroke-linecap="round"/>
+              <path class="light-trace trace-two" d="M72 252V216H216V0" fill="none" stroke="#D58A48" stroke-width="3.5" stroke-linecap="round"/>
+            </g>
+            <g fill="none" stroke="#397D88" stroke-width="1.5"><path d="M456 242L550 296"/><path d="M487 224L562 267"/><path d="M425 260L526 318"/></g>
+            <g fill="#397D88"><circle cx="550" cy="296" r="3"/><circle cx="562" cy="267" r="3"/><circle cx="526" cy="318" r="3"/></g>
+            <g fill="#D58A48"><circle cx="175" cy="314" r="3"/><circle cx="238" cy="350" r="3"/><circle cx="363" cy="350" r="3"/><circle cx="425" cy="314" r="3"/></g>
+          </svg>
+          <figcaption><span class="caption-line" aria-hidden="true"></span> 3D photonics + analog electronics</figcaption>
+        </figure>
+      </section>
+
+      <section class="vision" aria-labelledby="vision-heading">
+        <div class="vision-heading"><p class="eyebrow">The direction</p><h2 id="vision-heading">Faster, cheaper<br> AI inference.</h2></div>
+        <div class="vision-detail"><span class="index">01 / The approach</span><h3>Photons and electrons.</h3><p>Combining the parallelism of light with analog electronic processing, with each doing what it does best.</p></div>
+        <div class="vision-detail"><span class="index">02 / The goal</span><h3>Less data movement.</h3><p>We aim to reduce the energy and cost of moving data, so AI systems can respond faster and handle more work.</p></div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><span>© <span id="year">2026</span> Compulight</span><span>Photonic AI compute</span></footer>
+  </div>
+
+  <dialog id="contact-dialog" aria-labelledby="contact-title" aria-describedby="contact-description">
+    <div class="dialog-content">
+      <button class="close-dialog" type="button" aria-label="Close contact options">×</button>
+      <p class="eyebrow">Contact Compulight</p>
+      <h2 id="contact-title">Let’s talk.</h2>
+      <p id="contact-description">Interested in what we’re building? We’d love to hear from you.</p>
+      <label class="email-label" for="email-address">Email address</label>
+      <input id="email-address" class="email-address" type="text" readonly spellcheck="false" autocomplete="off">
+      <div class="contact-actions">
+        <button class="button button-primary" id="copy-email" type="button">Copy email address</button>
+        <a class="button button-secondary" id="open-email">Open email app <span aria-hidden="true">↗</span></a>
+      </div>
+      <p class="contact-status" id="contact-status" role="status" aria-live="polite"></p>
+    </div>
+  </dialog>
+</body>
+</html>

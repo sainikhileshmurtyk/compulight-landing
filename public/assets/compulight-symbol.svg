@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="50 45 1265 1100"
+     width="600" height="522"
+     role="img" aria-labelledby="title desc">
+  <title id="title">Compulight symbol</title>
+  <desc id="desc">A microchip's circuit connections on the left merge with radiating optical beams on the right.</desc>
+  <!-- Flat vector artwork. All contact openings are transparent. -->
+  <g fill="#0F2D3A">
+    <!-- Central optical aperture: curved upper and lower boundaries -->
+    <path d="M691 138 C812 138 925 175 992 246 L963 278
+             C904 218 825 185 731 181 L731 518 L692 565 Z"/>
+    <path d="M692 666 L731 713 L731 1027
+             C826 1023 904 989 961 930 L991 960
+             C915 1035 809 1073 697 1072 Z"/>
+
+    <!-- Five optical beams share a common origin -->
+    <path d="M700 612 L1023 281 L1052 311 Z"/>
+    <path d="M700 612 L1081 407 L1098 443 Z"/>
+    <path d="M700 612 L1278 590 L1278 635 Z"/>
+    <path d="M700 614 L1098 766 L1083 805 Z"/>
+    <path d="M700 614 L1049 895 L1021 925 Z"/>
+
+    <!-- Broken outer arc: discrete optical-wavefront marks -->
+    <path d="M1094 210 L1121 240 L1092 270 L1062 240 Z"/>
+    <path d="M1171 320 L1191 357 L1143 379 L1125 342 Z"/>
+    <path d="M1224 438 L1235 475 L1182 495 L1168 459 Z"/>
+    <path d="M1180 714 L1234 732 L1219 776 L1165 756 Z"/>
+    <path d="M1140 826 L1192 847 L1173 891 L1123 866 Z"/>
+    <path d="M1093 926 L1126 958 L1093 991 L1052 956 Z"/>
+  </g>
+
+  <!-- Chip traces. The circles are outlined with transparent centers. -->
+  <g fill="none" stroke="#0F2D3A" stroke-width="40" stroke-linejoin="round">
+    <path d="M591 402 V165"/>
+    <path d="M657 402 H480 L400 322 V278"/>
+    <path d="M283 438 L335 485 H595 Q637 485 637 529 V697
+             Q637 741 595 741 H333 L282 775"/>
+    <path d="M187 614 H398"/>
+    <path d="M656 817 H479 L400 892 V930"/>
+    <path d="M591 817 V1033"/>
+  </g>
+
+  <!-- Chip core -->
+  <rect x="436" y="547" width="141" height="134" rx="14" fill="#0F2D3A"/>
+
+  <!-- Seven electrical contact pads; inner holes remain transparent -->
+  <g fill="none" stroke="#0F2D3A" stroke-width="34">
+    <circle cx="591" cy="124" r="39"/>
+    <circle cx="400" cy="233" r="39"/>
+    <circle cx="246" cy="404" r="39"/>
+    <circle cx="149" cy="614" r="39"/>
+    <circle cx="246" cy="812" r="39"/>
+    <circle cx="400" cy="974" r="39"/>
+    <circle cx="591" cy="1073" r="39"/>
+  </g>
+</svg>
